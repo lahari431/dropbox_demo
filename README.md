@@ -21,9 +21,6 @@ psql postgres -c "GRANT ALL PRIVILEGES ON DATABASE dropbox_db TO dropbox_user;"
 ```
 
 **Option B: Docker**
-```bash
-docker-compose up -d postgres
-```
 
 ### 2. Start Backend
 ```bash
