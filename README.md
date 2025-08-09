@@ -29,12 +29,9 @@ docker-compose up -d postgres
 ```bash
 ./mvnw spring-boot:run
 ```
-Backend runs at `http://localhost:8080`
-
 ### 3. Start Frontend
 ```bash
 cd react-frontend
 npm install --legacy-peer-deps
 npm start
 ```
-Frontend runs at `http://localhost:3000`
